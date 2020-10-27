@@ -1,0 +1,154 @@
+:root {
+	--sesenta: #212529;
+	--sesenta--hover: #161a1d;
+	--diez: #660708;
+	--diez--hover: #a4161a;
+	--treinta: #ffffff;
+	--treinta--hover: #d3d3d3;
+}
+
+.content {
+	height: 70vh;
+
+}
+
+
+.configuracion {
+	height: 440px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+}
+
+.configuracion h2 {
+	font-family: 'GothamBook';
+	color: var(--treinta);
+	margin-bottom: 20px ;
+	font-weight: 300;
+}
+
+table{
+	border-collapse: collapse;
+	font-size: 13px;
+	font-family: 'GothamBook';
+	width: 30%;
+	text-align: left;
+}
+table thead th{
+	padding: 8px;
+	background: var(--sesenta--hover);
+	color: var(--treinta);
+}
+table tr:nth-child(odd){
+	background: var(--sesenta);
+}
+table td{
+	color: var(--treinta);
+	padding: 9px;
+}
+
+.btn {
+	background: var(--diez);
+	text-decoration: none;
+	color: var(--treinta);
+	text-align: center;
+	padding: 10px 20px;
+	margin: 20px 0;
+	border-radius: 25px;
+}
+
+.btn:hover {
+	background: var(--diez--hover);
+}
+
+form {
+	background: var(--sesenta);
+	border-radius: 10px;
+	padding: 10px;
+	width: 30%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+form input {
+	display: block;
+	background: var(--treinta);
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+}
+
+input:focus {
+	background: transparent;
+	color: var(--treinta);
+}
+
+.alert {
+	margin-top: 6px;
+	color: var(--treinta);
+	text-decoration: underline;
+}
+
+.btn_save {
+	background: var(--diez);
+	text-decoration: none;
+	color: var(--treinta);
+	text-align: center;
+	padding: 12px 20px;
+	margin: 20px 0;
+	border-radius: 25px;
+}
+
+.btn_save:hover {
+	background: var(--diez--hover);
+}
+
+.btn-volver {
+	background: var(--diez);
+	text-decoration: none;
+	color: var(--treinta);
+	text-align: center;
+	padding: 10px 20px;
+	border-radius: 25px;
+}
+
+.btn-volver:hover {
+	background: var(--diez--hover);
+}
+
+
+
+@media (max-width: 1000px){
+
+	.configuracion{
+		height: 850px;
+	}
+	table {
+		width: 400px;
+	}
+	form {
+		margin-top: 40px;
+		width: 400px;
+	}
+}
+
+
+@media (max-width: 500px){
+
+	table {
+		width: 100%;
+	}
+	form {
+		width: 90%;
+	}
+	}
+
+	
+

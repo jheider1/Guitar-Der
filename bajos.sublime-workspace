@@ -1,0 +1,825 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"he",
+				"height\tAttr"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"idcliente",
+				"idcliente"
+			],
+			[
+				"cliente",
+				"clientes"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"idcl",
+				"idcli"
+			],
+			[
+				"idcli",
+				"idCliente"
+			],
+			[
+				"di",
+				"direccion"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"border-",
+				"border-radius\tproperty"
+			],
+			[
+				"r",
+				"rgb()\tcolor"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"dec",
+				"text-decoration\tproperty"
+			],
+			[
+				"m",
+				"margin\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"nombre",
+				"nombres"
+			],
+			[
+				"borde",
+				"border\tproperty"
+			],
+			[
+				"inl",
+				"inline\tdisplay"
+			],
+			[
+				"in",
+				"inline\tdisplay"
+			],
+			[
+				"rg",
+				"rgb()\tbackground"
+			],
+			[
+				"border",
+				"border\tproperty"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"col-md",
+				"col-md-12 \tBootstrap 4 Class"
+			],
+			[
+				"quey",
+				"query_categoria"
+			],
+			[
+				"mysqli_fect",
+				"mysqli_fetch_array"
+			],
+			[
+				"res",
+				"result_categoria"
+			],
+			[
+				"query",
+				"query_categoria"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"id",
+				"idProductos"
+			],
+			[
+				"coe",
+				"conexion"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"fle",
+				"flex-wrap\tproperty"
+			],
+			[
+				"nom",
+				"nombre_pro"
+			],
+			[
+				"shad",
+				"box-shadow\tproperty"
+			],
+			[
+				"bor",
+				"border\tproperty"
+			],
+			[
+				"paddi",
+				"padding-right\tproperty"
+			],
+			[
+				"padi",
+				"padding\tproperty"
+			],
+			[
+				"hei",
+				"height\tproperty"
+			],
+			[
+				"broder",
+				"border-top\tproperty"
+			],
+			[
+				"fotn",
+				"font-size\tproperty"
+			],
+			[
+				"c",
+				"colspan\tAttr"
+			],
+			[
+				"cl",
+				"cliente"
+			],
+			[
+				"dat",
+				"data_producto"
+			],
+			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"ct",
+				"ct_item-active"
+			],
+			[
+				"remo",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"category",
+				"category-item"
+			],
+			[
+				"mar",
+				"margin-right\tproperty"
+			],
+			[
+				"im",
+				"imgProducto"
+			],
+			[
+				"idP",
+				"idproducto"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"aplli",
+				"apellidos"
+			],
+			[
+				"nombe",
+				"nombres"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"TEXT",
+				"text-transform\tproperty"
+			],
+			[
+				"font-",
+				"font-family\tproperty"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"rgb",
+				"rgba()\tbackground"
+			],
+			[
+				"tmp",
+				"tmp_url"
+			],
+			[
+				"img",
+				"img_producto"
+			],
+			[
+				"des",
+				"destino"
+			],
+			[
+				"pre",
+				"precio"
+			],
+			[
+				"produt",
+				"producto"
+			],
+			[
+				"mysqli",
+				"mysqli_close"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"marg",
+				"margin-left\tproperty"
+			],
+			[
+				"bo",
+				"border\tproperty"
+			],
+			[
+				"trans",
+				"transition\tproperty"
+			],
+			[
+				"tras",
+				"translateY()\ttransform"
+			],
+			[
+				"margin-",
+				"margin-top\tproperty"
+			],
+			[
+				"ID",
+				"idUsuario"
+			],
+			[
+				"font-he",
+				"font-weight\tproperty"
+			],
+			[
+				"idsu",
+				"iduser"
+			],
+			[
+				"idu",
+				"idu"
+			],
+			[
+				"idr",
+				"idrol"
+			],
+			[
+				"tra",
+				"transition\tproperty"
+			],
+			[
+				"border-r",
+				"border-right\tproperty"
+			],
+			[
+				"vi",
+				"visibility\tproperty"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"coor",
+				"color\tproperty"
+			],
+			[
+				"bordel",
+				"border-collapse\tproperty"
+			],
+			[
+				"dis",
+				"display\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"resul",
+				"result_rol"
+			],
+			[
+				"qyer",
+				"query_rol"
+			],
+			[
+				"q",
+				"query_rol"
+			],
+			[
+				"mysli_fetch",
+				"mysqli_fetch_array"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"ma",
+				"max\tAttr"
+			],
+			[
+				"out",
+				"outline\tproperty"
+			],
+			[
+				"text-al",
+				"text-align\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"n",
+				"nombres"
+			],
+			[
+				"al",
+				"alert"
+			],
+			[
+				"que",
+				"query_insert"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"cla",
+				"class"
+			],
+			[
+				"cur",
+				"cursor\tproperty"
+			],
+			[
+				"min",
+				"minlength\tAttr"
+			],
+			[
+				"session_de",
+				"session_destroy"
+			],
+			[
+				"session_",
+				"session_destroy"
+			],
+			[
+				"correo",
+				"correo"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"mysqli_fe",
+				"mysqli_fetch_array"
+			],
+			[
+				"idpro",
+				"idpro"
+			],
+			[
+				"PRO",
+				"productos"
+			],
+			[
+				"mysqli_",
+				"mysqli_query"
+			],
+			[
+				"txt",
+				"txt_precio"
+			],
+			[
+				"fo",
+				"for\tAttr"
+			],
+			[
+				"incl",
+				"includes"
+			],
+			[
+				"includ",
+				"include"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"boder",
+				"border-radius\tproperty"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"ba",
+				"background\tproperty"
+			],
+			[
+				"valor",
+				"valorapagar"
+			],
+			[
+				"produ",
+				"productos"
+			],
+			[
+				"ca",
+				"cantidad"
+			],
+			[
+				"to",
+				"totalapagar"
+			],
+			[
+				"idUsuario",
+				"idUsuarios"
+			],
+			[
+				"mys",
+				"mysql_query"
+			],
+			[
+				"sessio",
+				"session_start"
+			],
+			[
+				"sesis",
+				"session_start"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 288.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/php/Trimestre 2/pr/pos_system.sql",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/.htaccess",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/index.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/descripcion.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/carritodecompras.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/amplificadores.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/acusticas.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/detalles.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/login_cliente.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/css/style_plantilla_cli.css",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/includes/head.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/electricas.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/includes/nav_inicio.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/bajos.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/css/style_plantilla.css",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/includes/head_inicio.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/css/index.css",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/inicio.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/includes/nav_con.php",
+		"/C/Users/Jhon Eider/Desktop/Estudio/SENA/Programación de Software/Responsivo/index.html",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/css/style_footer.css",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/includes/footer.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/editar_cliente.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/eliminar_cliente.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/css/style_body.css",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/nuevo_cliente.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/lista_clientes.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/nuevo_producto.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/css/style_imgProducto.css",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/includes/nav.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/buscar_empleados_i.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/recuperar_empleado.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/nuevo_empleado.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/lista_empleados.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/buscar_empleado.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/productos_eliminados.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/lista_productos.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/empleados_eliminados.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/clientes_eliminados.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/buscar_productos_i.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/buscar_producto.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/buscar_cliente.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/reporte_productos_i.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/css/grid.css",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/login_funcionario.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/eliminar_producto.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/confirmarcompra.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/editar_producto.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/reporte_productos.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/recuperar_producto.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/lista_ventas.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/restarCantidad.php",
+		"/C/xampp/htdocs/php/Trimestre 2/carrito/carritodecompras.php",
+		"/C/xampp/htdocs/php/Trimestre 2/carrito/index.php",
+		"/C/xampp/htdocs/php/Trimestre 2/carrito/conexion.php",
+		"/C/xampp/htdocs/php/Trimestre 2/carrito/detalles.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/css/estilos_index.css",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/conexion.php",
+		"/C/xampp/htdocs/php/Trimestre 2/carrito/admin.php",
+		"/C/xampp/htdocs/php/Trimestre 2/carrito/compras/compras.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/añadir_a_carrito.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/pedales.php",
+		"/C/Users/Jhon Eider/Desktop/index.php",
+		"/C/Users/Jhon Eider/Desktop/conexion.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pos_system/index.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/accesorios.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/electronicas.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/css/style_login.css",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/registrarse.php",
+		"/C/xampp/htdocs/php/Trimestre 2/enviar correo/Prueba.php",
+		"/C/xampp/htdocs/php/Trimestre 2/enviar correo/formulario.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/reportes_productos_i.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/reporte_clientes_i.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/reporte_empleados.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/reporte_clientes.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/reporte_empleados_i.php",
+		"/C/Users/Jhon Eider/Desktop/imprimir.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/enviar correo/Prueba.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/recuperar_cliente.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/carrito.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/hombres.php",
+		"/C/Users/Jhon Eider/Desktop/luego veo/Responsive Sidebar Dashboard Template UI Design - Using CSS, HTML & Javascript/style.css",
+		"/C/Users/Jhon Eider/Desktop/luego veo/Responsive Sidebar Dashboard Template UI Design - Using CSS, HTML & Javascript/index.html",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/js/funtions.js",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/cazadoras.php",
+		"/C/xampp/htdocs/php/Trimestre 2/Filtrando elemetos/index.html",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/js/scripts.js",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/css/style_productos.css",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/descripcion.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/categorias/hombres",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/.htaccess",
+		"/C/Users/Jhon Eider/Desktop/ocultar-extension-php-master/.htaccess",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/login_cliente.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/editar_empleado.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/login.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/registrarse.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/nueva_venta.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/index.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/eliminar_empleado.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pos_system/sistema/buscar_producto.php",
+		"/C/xampp/htdocs/php/Trimestre 2/TallerConexionBD/sistema/registro_producto.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pos_system/sistema/lista_productos.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pos_system/sistema/nuevo_producto.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pos_system/sistema/lista_empleados.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/lista_usuarios.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/css/style.css",
+		"/C/xampp/htdocs/php/Trimestre 2/pos_system/sistema/editar_empleado.php",
+		"/C/xampp/htdocs/php/POS Inventory PHP/POS_inventory/supplier/index.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pos_system/sistema/eliminar_empleado.php",
+		"/C/xampp/htdocs/php/PROYECTO/index.php",
+		"/C/xampp/htdocs/php/PROYECTO/sistema/header.php",
+		"/C/xampp/htdocs/php/PROYECTO/sistema/registro_usuario.php",
+		"/C/xampp/htdocs/php/PROYECTO/conexion.php",
+		"/C/xampp/htdocs/php/PROYECTO/sistema/index.php",
+		"/C/xampp/htdocs/php/PROYECTO/sistema/lista_productos.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pr/sistema/includes/header.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pos_system/sistema/css/style.css",
+		"/C/xampp/htdocs/php/Trimestre 2/pos_system/sistema/nuevo_empleado.php",
+		"/C/xampp/htdocs/php/Trimestre 2/pos_system/sistema/css/style_nav.css",
+		"/C/xampp/htdocs/php/Trimestre 2/pos_system/sistema/includes/nav.php",
+		"/C/xampp/htdocs/php/pos_system/sistema/lista_productos.php",
+		"/C/xampp/htdocs/php/pos_system/sistema/css/style.css",
+		"/C/xampp/htdocs/php/pos_system/sistema/agregar_producto.php",
+		"/C/xampp/htdocs/php/pos_system/sistema/includes/scripts.php",
+		"/C/xampp/htdocs/php/Trimestre 2/TallerConexionBD/sistema/lista_productos.php",
+		"/C/xampp/htdocs/php/pos_system/sistema/includes/header.php",
+		"/C/xampp/htdocs/php/pos_system/sistema/ajax.php",
+		"/C/xampp/htdocs/php/pos_system/sistema/js/functions.js"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 159.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "bajos.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 173.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

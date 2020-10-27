@@ -1,0 +1,126 @@
+:root {
+	--sesenta: #212529;
+	--sesenta--hover: #161a1d;
+	--diez: #660708;
+	--diez--hover: #a4161a;
+	--treinta: #ffffff;
+	--treinta--hover: #d3d3d3;
+}
+
+table{
+    border-collapse: collapse;
+	font-size: 13px;
+	font-family: 'GothamBook';
+	width: 100%;
+	text-align: left;
+}
+table thead th{
+	padding: 15px;
+	background: #161a1d;
+	color: #ffffff;
+}
+table tr:nth-child(odd){
+	background: #212529;
+}
+table td{
+	color: #ffffff;
+	padding: 13px;
+}
+
+td .link_detalle{
+    text-decoration: none;
+    color: var(--treinta);
+}
+
+td .link_detalle:hover {
+	text-decoration: underline;
+	color: var(--diez--hover);
+}
+
+.btn_volver  {
+	display: flex;
+	justify-content: center;
+}
+
+.btn_volver a {
+	background: var(--diez);
+	color: var(--treinta);
+	text-decoration: none;
+	border: none;
+	margin-top: 15px;
+	border-radius: 5px;
+	padding: 8px 65px;
+}
+
+.btn_volver a:hover {
+	background: var(--diez--hover);
+}
+
+.paginador ul{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+	list-style: none;
+	background: var(--sesenta);
+	margin-top: 15px;
+	display: flex;
+	justify-content: flex-end;
+}
+.paginador a, .pageselected{
+	color: var(--treinta);
+	border: 1px solid var(--treinta);
+	padding: 5px;
+	display: block;
+	font-size: 18px;
+	text-align: center;
+	width: 35px;
+	border-radius: 8px;
+	text-decoration: none;
+}
+.paginador a:hover{
+	background: var(--sesenta--hover);
+}
+.pageselected{
+	color:var(--treinta);
+	background: var(--diez);
+    border: 1px solid var(--diez--hover);
+}
+
+@media(max-width: 1105px) {
+	table{
+		width: 95%;
+		margin: auto;
+	}
+	table tr{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #545454;
+	padding: 1em;
+	margin-bottom: 1em;
+	width: 95%;
+	}
+	table td[data-titulo]{
+		display: flex;
+	}
+	table td[data-titulo]::before{
+		content: attr(data-titulo);
+		width: 40%;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	table thead{
+		display: none;
+	}
+	a{
+		font-size: 16px;
+		font-weight: 30px;
+	}
+	.btn_new, .btn_inac, .btn_desc {
+	display: block;
+	width: 85%;
+	margin: auto;
+	margin-top: 8%;
+	height: 30px;
+	line-height: 30px;
+	}
+}

@@ -1,0 +1,547 @@
+@import url(../fonts/GothamBook.css);
+@import url(../fonts/GothamBold.css);
+/**{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}*/
+body{
+	background: #ededed;
+}
+
+/*==========MENÚ==========*/
+
+/*h1, h2, h3, h4, h5, h6 {
+    font-family: 'arial';
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+h1{
+	font-size: 26px;
+}
+h2{
+	font-size: 20px;
+}
+h3{
+	font-size: 18px;
+}
+h4{
+	font-size: 16px;
+}
+h5{
+	font-size: 14px;
+}
+h6{
+	font-size: 12px;
+}
+p{
+	font-family: 'arial';
+	letter-spacing: 1px;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 13px;
+}
+a{
+	text-decoration: none;
+	font-family: arial;
+	letter-spacing: 1px;
+}
+span {
+    font-family: 'GothamBook';
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 20px;
+}
+header{
+	position: fixed;
+	width: 100%;
+}
+.header{
+	color: #FFF;
+	background: #062130;
+	height: 35px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+.optionsBar{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.optionsBar span {
+    color: #FFF;
+    font-size: 11pt;
+    font-family: 'GothamBook';
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+.photouser {
+    margin-left: 30px;
+    width: 25px;
+    height: 25px;
+}
+.close{
+	width: 25px;
+    height: 25px;
+}
+.optionsBar a {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin-left: 30px;
+}
+nav ul{
+	background: #3F464C;
+	/*background: #05817d;
+	list-style: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	/*justify-content: left;
+	align-items: center;
+}
+nav ul > li a{
+	position: relative;
+}
+nav a{
+	color: #FFF;
+	display: block;
+	font-size: 10pt;
+	font-family: 'GothamBook';
+	padding: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: background .5s;
+	border-right: 1px solid #889CA5;
+}
+nav .principal > a{
+    background: url(../images/arrow_bottom.png) no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    background-position: 94% center;
+    background-size: 10px;
+}
+nav ul li:hover ul{
+	display: block;
+}
+nav li ul{
+	/*background: #5D737D;
+	background: #5D737D;
+	display: none;
+	flex-direction: column;
+	position: absolute;
+	align-items: flex-start;
+	border-radius: 0 0 10px 10px;
+}
+nav li ul a{
+	position: relative;
+	padding: 10px 30px;
+	border-right: initial;
+}
+nav li ul a:hover{
+	/*background: #2c9595;
+	background: #062130;
+}
+nav li ul li:last-child{
+	border-radius: 0 0 10px 10px;
+	overflow: hidden;
+}
+#container{
+	padding: 90px 15px 15px;
+}
+
+/*==========FORMULARIO REGISTRO==========*/
+
+.form_register{
+	width: 450px;
+	margin: auto;
+}
+.form_register h1{
+	color: rgb(11, 9, 10);
+}
+.linea{
+	border: 0;
+	background: rgb(11, 9, 10);
+	height: 1px;
+	margin: 10px;
+	display: block;
+}
+form{
+	background: #fff;
+	margin: auto;
+	padding: 20px 50px;
+	border: 0px;
+	border-radius: 8px;
+}
+label{
+	font-size: 12pt;
+	font-family: 'GothamBook';
+	margin: 0px auto 5px auto;
+}
+input, select, .btn_cancelar{
+	display: block;
+	width: 100%;
+	font-family: 11pt;
+	padding: 5px;
+	border: 1px solid rgb(11, 9, 10);
+	border-radius: 6px;
+	margin-bottom: 10px;
+}
+.notitemone option:first-child{
+	display: none;
+}
+.btn_save, .btn_cancelar, .btn_cancelar a{
+	font-size: 13pt;
+	background: rgb(22, 26, 29);
+	padding: 10px;
+	color: #fff;
+	letter-spacing: 1px;
+	border: 0;
+	cursor: pointer;
+	margin: 15px auto;
+	text-decoration: none;
+	width: 100%;
+}
+.alert{
+	width: 100%;
+	background: rgb(211, 211, 211);
+	border-radius: 10px;
+	margin: 20px auto;
+}
+.msg_error{
+	color: rgb(164, 22, 26);
+}
+.msg_save{
+	color: #55a630;
+}
+.alert p{
+	padding: 16px;
+}
+	textarea{
+		max-width: 100%;
+		min-width: 100%;
+		max-height: 100px;
+		min-height: 100px;
+		border: 1px solid rgb(11, 9, 10);
+		border-radius: 8px;
+		margin-bottom: 10px;
+		font-size: 16px;
+	}
+
+/*============LISTA USUARIOS============*/
+#container h1{
+	background: #fff;
+	font-size: 30px;
+	display: block;
+}
+.btn_new, .btn_inac, .btn_desc {
+	display: inline;
+	background: rgb(22, 26, 29);
+	color: #fff;
+	padding: 6px 25px;
+	border-radius: 4px;
+	margin-left: 10%;
+	text-decoration: none;
+	text-align: center;
+}
+.btn_new:hover, .btn_inac:hover, .btn_desc:hover{
+	background: rgb(186, 24, 27);
+	color: #fff;
+}
+table{
+	border-collapse: collapse;
+	font-size: 13px;
+	font-family: 'GothamBook';
+	width: 100%;
+	text-align: left;
+}
+table thead th{
+	padding: 15px;
+	background: rgb(211, 211, 211);
+	color: #000;
+}
+table tr:nth-child(odd){
+	background: #fff;
+}
+table td{
+	padding: 13px;
+}
+.link_edit{
+	text-decoration: none;
+	color: #000;
+}
+.link_delete, .link_act{
+	color: rgb(186, 24, 27);
+	text-decoration: none;
+}
+
+/*============ELIMINAR USUARIO============*/
+
+.data_delete h2{
+	font-size: 18pt;
+	margin-bottom: 70px;
+}
+.data_delete span{
+	font-weight: bold;
+	color: #000;
+	font-size: 12pt;
+}
+.data_delete, p{
+	margin-top: 15px;
+	text-align: center;
+}
+.btn_cancel, .btn_ok{
+	width: 125px;
+	background: rgb(186, 24, 27);
+	color: #fff;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 15px;
+	font-size: 18px;
+}
+
+.btn_cancel{
+	padding: 6px;
+}
+.btn_ok{
+	background: rgb(22, 26, 29);
+}
+
+form a{
+	text-decoration: none;
+}
+
+.data_delete form{
+	background: initial;
+	margin: auto;
+	padding: 20px 50px;
+	border-radius: 8px;
+	margin-top: 85px;
+}
+/*============PAGINADOR============*/
+
+.paginador ul{
+	padding: 15px;
+	list-style: none;
+	background: #fff;
+	margin-top: 15px;
+	display: flex;
+	justify-content: flex-end;
+}
+.paginador a, .pageselected{
+	color: #000;
+	border: 1px solid #ddd;
+	padding: 5px;
+	display: block;
+	font-size: 18px;
+	text-align: center;
+	width: 35px;
+	border-radius: 8px;
+	text-decoration: none;
+}
+.paginador a:hover{
+	background: #ededed;
+}
+.pageselected{
+	color: #fff;
+	background: rgb(186, 24, 27);
+	border: 1px solid #fff;
+}
+/*============BUSCADOR============*/
+
+.form_search{
+	display: flex;
+	float: right;
+	background: initial;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 25px;
+	margin-bottom: 18px;
+	margin-right: 10px;
+	border: none;
+	width: 90%;
+}
+.form_search .btn_search{
+	background: rgb(22, 26, 29);
+	color: #fff;
+	padding: 0 20px;
+	border: 0;
+	cursor: pointer;
+	width: 30%;
+	margin-right: 2%;
+}
+.form_search .buscar{
+	margin-right: 10px;
+}
+/*============LISTA PRODUCTOS============*/
+
+.img_producto img{
+	height: 100px;
+	width: auto;
+	margin: auto;
+}
+.btn_anular{
+	background-color: #f36a6a;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px;
+	margin: 0 3px;
+	color: #FFF;
+}
+
+/*============MODAL AGREGAR PRODUCTOS============*/
+
+.modal{
+	margin: auto;
+	height: 500px;
+	border-radius: 8px;
+	background: rgba(0, 0, 0, 0.8);
+}
+.bodyModal{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn_agregar, .btn_cerrar{
+	width: 125px;
+	background: #062130;
+	color: #fff;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 15px;
+	font-size: 18px;
+	text-align: center;
+	font-family: 'GothamBook';
+}
+.btn_agregar{
+	border: none;
+}
+.modal h1{
+	color: #5D737D;
+	text-transform: uppercase;
+}
+.modal h2{
+	text-transform: uppercase;
+}
+#form_add_product{
+	width: 450px;
+	text-align: center;
+}
+
+/*============PANEL DE CONTROL============*/
+
+.titlePanelControl{
+	background: #fff;
+	padding: 5px 15px;
+	margin-bottom: 10px;
+	font-size: 18pt !important;
+	color: #000;
+}
+.dashboard{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin: auto;
+}
+.dashboard a{
+	color: #000;
+	width: calc(100% / 5);
+	width: 100%;
+	padding: 20px;
+	background: #fff;
+	font-size: 27pt;
+	text-align: center;
+	text-decoration: none;
+}
+.dashboard p{
+	background: rgb(211, 211, 211);
+	color: rgb(186, 24, 27);
+}
+.dashboard a span{
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+/*============RESPONSIVE============*/
+
+/*============lISTADOS============*/
+
+
+@media(max-width: 1105px) {
+	table{
+		width: 95%;
+		margin: auto;
+	}
+	table tr{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #545454;
+	padding: 1em;
+	margin-bottom: 1em;
+	width: 95%;
+	}
+	table td[data-titulo]{
+		display: flex;
+	}
+	table td[data-titulo]::before{
+		content: attr(data-titulo);
+		width: 40%;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	table thead{
+		display: none;
+	}
+	a{
+		font-size: 16px;
+		font-weight: 30px;
+	}
+	.btn_new, .btn_inac, .btn_desc {
+	display: block;
+	width: 85%;
+	margin: auto;
+	margin-top: 8%;
+	height: 30px;
+	line-height: 30px;
+	}
+}
+
+/*============FORMULARIOS============*/
+
+@media(max-width: 700px) {
+	.form_register{
+	width: 100%;
+	margin: auto;
+	}
+	.dashboard{
+		flex-wrap: wrap;
+	}
+	.dashboard a{
+		border: 1px solid #545454;
+		border-radius: 4px;
+	}
+}
+
+

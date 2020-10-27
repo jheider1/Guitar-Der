@@ -1,0 +1,25 @@
+:root {
+	--sesenta: #212529;
+	--sesenta--hover: #161a1d;
+	--diez: #660708;
+	--diez--hover: #a4161a;
+	--treinta: #ffffff;
+	--treinta--hover: #d3d3d3;
+}
+
+.cardi {
+    background: var(--sesenta);
+    margin: 15px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.cardi h2 {
+    color: var(--treinta);
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+.cardi p {
+    color: var(--treinta--hover);
+}

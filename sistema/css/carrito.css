@@ -1,0 +1,155 @@
+table{
+	border-collapse: collapse;
+	font-size: 13px;
+	font-family: 'GothamBook';
+	width: 100%;
+	text-align: left;
+}
+table thead th{
+	padding: 15px;
+	background: #161a1d;
+	color: #ffffff;
+}
+table tr:nth-child(odd){
+	background: #212529;
+}
+table td{
+	color: #ffffff;
+	padding: 13px;
+}
+.link_edit{
+	text-decoration: none;
+	color: #ffffff;
+}
+.link_delete, .link_act{
+	color: rgb(186, 24, 27);
+	text-decoration: none;
+}
+
+.btn_papelera button {
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+.papelera {
+	padding: 10px;
+	color: #660708;
+}
+
+.papelera:hover {
+	color: #a4161a;
+}
+
+.alert_compra {
+	background: #212529;
+	display: inline-block;
+	padding: 20px;
+	border-radius: 25px ;
+	
+}
+
+.alert_finalizarcompra {
+	margin-top: 20px;
+	background: #212529;
+	width: 0 auto;
+	padding: 15px 10px;
+}
+
+.alertnoproductos a {
+	display: block;
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.alertnoproductos a:hover {
+	text-decoration: underline;
+}
+
+.form__emailcompra {
+	border: none;
+	background: transparent;
+	color: #ffffff;
+	text-decoration: underline;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.form-iniciarsesion {
+
+	font-size: 20px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.form-iniciarsesion:hover {
+	text-decoration: underline;
+
+}
+
+.label_confirmacion {
+	margin-bottom: 20px ;
+	color: #ffffff;
+	display: inline-block;
+}
+
+.btn_finalizarcompra {
+	margin: 0 50px;
+	display: inline-block;
+
+}
+
+.btn_finalizarcompra button {
+	padding: 10px 30px;
+	border: none;
+	border-radius: 25px;
+	background: #660708;
+	color: #ffffff;
+
+}
+
+.btn_finalizarcompra button:hover {
+	background-color:  #a4161a;
+}
+
+
+
+@media(max-width: 1105px) {
+	table{
+		width: 95%;
+		margin: auto;
+	}
+	table tr{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #545454;
+	padding: 1em;
+	margin-bottom: 1em;
+	width: 95%;
+	}
+	table td[data-titulo]{
+		display: flex;
+	}
+	table td[data-titulo]::before{
+		content: attr(data-titulo);
+		width: 40%;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	table thead{
+		display: none;
+	}
+	a{
+		font-size: 16px;
+		font-weight: 30px;
+	}
+	.btn_new, .btn_inac, .btn_desc {
+	display: block;
+	width: 85%;
+	margin: auto;
+	margin-top: 8%;
+	height: 30px;
+	line-height: 30px;
+	}
+}

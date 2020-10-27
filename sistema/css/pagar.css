@@ -1,0 +1,53 @@
+:root {
+	--sesenta: #212529;
+	--sesenta--hover: #161a1d;
+	--diez: #660708;
+	--diez--hover: #a4161a;
+	--treinta: #ffffff;
+	--treinta--hover: #d3d3d3;
+}
+
+.parrafo {
+    color: #ffffff;
+    background: var(--sesenta);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.parrafo p {
+    margin: 15px;
+}
+
+.form {
+    background: var(--sesenta);
+    padding: 10px ;
+    margin: 10px;
+    border-radius: 15px;
+}
+.form .form__emailcompra {
+    background: var(--treinta);
+	border: none;
+	border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.form .form__emailcompra:focus {
+    background: var(--sesenta);
+	color: var(--treinta);
+}
+
+button {
+    background: var(--diez);
+	color: var(--treinta);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 8px 45px;
+}
+
+button:hover {
+    background: var(--diez--hover);
+}

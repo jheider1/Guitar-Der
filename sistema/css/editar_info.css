@@ -1,0 +1,161 @@
+:root {
+	--sesenta: #212529;
+	--sesenta--hover: #161a1d;
+	--diez: #660708;
+	--diez--hover: #a4161a;
+	--treinta: #ffffff;
+	--treinta--hover: #d3d3d3;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: var(--sesenta);
+}
+
+.titulo {
+    color: var(--treinta);
+    padding: 5px 0px 50px 0px;
+}
+
+.titulo h2 {
+    padding: 15px;
+}
+
+
+
+.container {
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container__form {
+	background: var(--sesenta--hover);
+	padding: 20px 20px 0px 20px;
+	height: 320px;
+	width: 40%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.container__form-control {
+	margin: 10px;
+}
+.container__form-control .input {
+	background: var(--treinta);
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.input:focus {
+	background: transparent;
+	color: var(--treinta);
+}
+
+.container__form-control label {
+	color: var(--treinta);
+	
+}
+
+.container__form-control select {
+	height: 25px;
+}
+
+.alert-register {
+	text-decoration: underline;
+	color: var(--treinta);
+}
+
+.btn {
+	background: var(--diez);
+	color: var(--treinta);
+	border: none;
+	border-radius: 5px;
+	padding: 10px 38px;
+}
+
+.btn-a {
+	background: var(--diez);
+	color: var(--treinta);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	margin: 8px;
+	padding: 8px 65px;
+}
+
+.btn:hover {
+	background: #a4161a;
+}
+
+.btn-a:hover {
+	background: #a4161a;
+}
+
+@media (max-width: 800px){
+
+	
+	
+}
+
+@media (max-width: 1023px){
+
+	.container {
+		height: 600px;
+	}
+    .container__form {
+		width: 450px;
+		height: 320px;
+	}
+}
+
+
+@media (max-width: 800px){
+
+		.container {
+			height: 600px;
+		}
+
+		.container__form {
+			width: 450px;
+			height: 320px;
+
+		}
+	}
+
+	@media (max-width: 516px){
+
+		.container {
+			height: 600px;
+		}
+
+		.container__form {
+			width: 100%;
+			height: 320px;
+
+		}
+	}
+
+	@media (max-width: 460px){
+
+		.container {
+			height: 600px;
+		}
+
+		.container__form {
+			width: 100%;
+			height: 600px;
+
+		}
+	}
+	
+
+
+
